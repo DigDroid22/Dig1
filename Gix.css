@@ -1,0 +1,155 @@
+/*RECURSOS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,100;1,400&,Nova+Square&display=swap');
+
+
+
+
+
+
+
+/*Aplicamos Estilos Generales a Nuestro Body*/
+
+body {
+  margin: 10px 0 10px 0;
+  background-color: #13161D;
+}
+
+/*Añadimos Estilo a la Imagen*/
+
+.fondo {
+  z-index: -100;
+  position: absolute;
+  top: 0px;
+  margin: 90px 0 0 0;
+  height: 250px;
+  width: 100%;
+}
+
+
+/*Agregamos Estilos A Nuestra Barra de Navegacion*/
+
+.contenedor1 {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  background-image: linear-gradient(to bottom, #1E222D, #495365);
+  width: 100%;
+}
+
+
+/*Agregamos Estilos a Nuestro Logo*/
+
+.logo {
+  width: 68px;
+  height: 68px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+/*Agregamos Estilos Generales a Nuestra Lista De Navegacion*/
+
+.listaDeNavegacion,
+.listas {
+  font-size: 10px;
+  list-style: none;
+  color: white;
+  display: inline;
+  padding:22px 0 0 0;
+}
+
+.listasDeNavegacion {
+  padding: 15px 10px 10px 10px;
+}
+
+
+/*Editamos el logo de cuenta en el contenedor de listas*/
+
+.logoDeCuenta {
+  position: absolute;
+  right: 30px;
+  padding: 30px 0 0 20px;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/*Ponemos la fuente a Nuestro Eslogan*/
+
+.eslogan {
+  z-index: 3;
+  position: absolute;
+  color: white;
+  padding: 92px 0 0 20px;
+  font-size: 22px;
+  font-family: 'Exo', Sans-Serif;
+}
+
+.eslogan2 {
+  z-index: 4;
+  position: absolute;
+  color: white;
+  padding: 124px 0 0 30px;
+  font-weight: 100;
+  font-family: 'Exo', Sans-Serif;
+}
+
+
+/*Estilizamos el boton de comienzo*/
+
+.botonDeComienzo {
+  z-index: 5;
+  position: absolute;
+  margin: 230px 0 0 250px;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  font-family: 'Exo', Sans-Serif;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #0E133B, #134486);
+}
+
+.textoDelBoton {
+  font-size: 10px;
+}
+
+
+/*Ajustamos nuestro fondo secundario*/
+
+.subfondo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 370px;
+  width: 100%;
+  height: 40px;
+}
+
+.subfondo2 {
+  padding-top: 40px;
+}
+
+/*Damos Estilo a Nuestro Contador*/
+
+.subfondo3 {
+  position: absolute;
+  margin-top: 920px;
+  background-color: black;
+  width: 100%;
+  height: 250px;
+}
+
+/*Estilizamos el pie de pagina*/
+
+.pieDePagina {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  margin-top: 1200px;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to bottom, #495365, #1E222D);
+}
